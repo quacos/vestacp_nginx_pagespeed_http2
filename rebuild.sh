@@ -10,7 +10,7 @@ case $(head -n1 /etc/issue | cut -f 1 -d ' ') in
 esac
 
 OS_GROUP=1
-DEF_OPENSSL_VER=1.1.1a
+DEF_OPENSSL_VER=1.1.1f
 DEF_NPS_VERSION=1.13.35.2-stable
 DEF_NGNX_VER=$(nginx -v 2>&1 | grep "/" | awk -F '/' '{print $2}')
 DIR_VESTA_NGNX_TPL="/usr/local/vesta/data/templates/web/nginx/"
